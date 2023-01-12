@@ -6,6 +6,7 @@ import MuiSelect from './components/MuiSelect';
 import MuiLayout from './components/MuiLayout';
 import MuiCard from './components/MuiCard';
 import MuiImageList from './components/MuiImageList';
+import MuiLink from './components/MuiLink';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <MuiSelect /> */}
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiLink />
     </div>
   );
 }
