@@ -3,6 +3,7 @@ import MuiTypography from './components/MuiTypography';
 import './App.css';
 import MuiTextField from './components/MuiTextField';
 import MuiSelect from './components/MuiSelect';
+import MuiLayout from './components/MuiLayout';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
-      <MuiSelect />
+      {/* <MuiSelect /> */}
+      <MuiLayout />
     </div>
   );
 }
